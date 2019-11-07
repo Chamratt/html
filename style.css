@@ -1,0 +1,47 @@
+.slide-img{
+	background-image: url("silvio-kundt-Fixg8KipOg8-unsplash.jpg");
+	height: 80vh;
+	color: #fff;
+	position: relative;
+}
+.slide-img .over-img a{
+	border: 1px solid #fff;
+	padding: 10px 15px;
+	background-color: none;
+	border-radius: 30px;
+	color: #fff;
+}
+.over-img{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	text-align: center;
+	transform: translate(-50%,-50%);
+
+
+
+}
+.slide-img .over-img a.active{
+	background-color: yellow;
+	color: black;
+}
+.over-img a.act{
+	color: black;
+}
+.navbar{
+	position: absolute;
+	background: none;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+.navbar a{
+	color: black;
+}
+.brand{
+	margin-top: 20px;
+	font-size: 28px;
+	color: #ffc107 !important;
+	border: 1px solid black;
+	padding: 10px 15px;
+}
